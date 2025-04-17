@@ -184,9 +184,9 @@ Welcome to my 100-Day Data Science Challenge! This repository chronicles my jour
 ---
 
 ## Contact
-- **GitHub:** [github.com/yourusername](https://github.com/1MuhammadFarhanAslam)
-- **LinkedIn:** [linkedin.com/in/yourprofile](https://www.linkedin.com/in/muhammad-farhan-aslam/)
-- **Email:** farhanmehar422538@gmail.com
+- **GitHub:** [github.com](https://github.com/yourusername)
+- **LinkedIn:** [linkedin](https://linkedin.com/in/yourprofile)
+- **Email:** your.email@example.com
 
 ---
 
