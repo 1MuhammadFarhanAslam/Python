@@ -135,9 +135,7 @@ Supervised Learning
 ```
 ---
 
-# Supervised Learning Algorithms — **Brief Explanation**
-
-## Summary Table for Quick Revision:
+# Supervised Learning Algorithms — **Summary Table**
 
 | Algorithm | Type | Core Idea |  
 |:---|:---|:---|  
