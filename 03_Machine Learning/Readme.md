@@ -1,7 +1,7 @@
-# Machine Learning - In Our Own Words (Desi Style in English)
+# Machine Learning -(In simplest form))
 
-Imagine you are a little kid.  
-Your mother shows you different fruits every day:
+Imagine you are a little kid. Your mother shows you different fruits every day:
+
 - She points to a mango and says, "Beta (son), this is a mango."
 - She points to a watermelon and says, "This is a watermelon."
 - Next day, you see a new fruit yourself — and based on what you've seen before, you think:  
