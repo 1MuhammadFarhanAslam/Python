@@ -119,10 +119,9 @@ The **student (machine)** learns from the **teacher (labeled data)**:
 | **Gradient Boosting (XGBoost, LightGBM, CatBoost)** | Learn from mistakes step-by-step | Top Kaggle solutions |
 
 # Summary:
+ 
+> Every algorithm has a different purpose and learning way — like every student has its own learning style."
 
-> "Regression mein hum numbers ka andaza lagate hain,  
-> Classification mein hum label ya category batate hain,  
-> Aur har algorithm apna alag style rakhta hai — jaise har student ka apna tareeka hota hai seekhne ka!"
 
 
 ```
