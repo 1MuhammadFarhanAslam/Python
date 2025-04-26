@@ -156,3 +156,44 @@ Supervised Learning
 | Gradient Boosting | Classification | Learn from errors step-by-step |
 
 ---
+# **Unsupervised Machine Learning Algorithms — Summary Table**
+
+| Algorithm | Type | Core Idea | Example |
+|:---|:---|:---|:---|
+| **K-Means Clustering** | Clustering | Group data into *k* clusters by minimizing distance to cluster centers (centroids) | Customer segmentation |
+| **Hierarchical Clustering** | Clustering | Build a tree (dendrogram) by merging or splitting clusters step-by-step | Gene sequence analysis |
+| **DBSCAN** | Clustering | Find clusters of arbitrary shapes based on density (ignore noise points) | Detecting geographical clusters |
+| **Gaussian Mixture Model (GMM)** | Clustering | Soft clustering using probability distributions (Gaussian/normal curves) | Voice recognition |
+| **Principal Component Analysis (PCA)** | Dimensionality Reduction | Compress data by finding new axes (principal components) | Image compression |
+| **t-SNE (t-Distributed Stochastic Neighbor Embedding)** | Dimensionality Reduction | Visualize high-dimensional data into 2D/3D while keeping similar points close | Visualizing word embeddings |
+| **Autoencoders** | Dimensionality Reduction | Neural networks that learn compressed representations (encodings) | Anomaly detection in network traffic |
+| **Apriori Algorithm** | Association Rule Learning | Find frequent item sets and association rules | Market basket analysis (e.g., bread → butter) |
+| **FP-Growth Algorithm** | Association Rule Learning | Faster method to find frequent patterns without candidate generation | Large-scale transaction data mining |
+
+# **Quick Definitions (1-liner)**
+- **Clustering:** Group similar items together (without labels).
+- **Dimensionality Reduction:** Compress data while keeping important information.
+- **Association Rule Learning:** Find interesting relationships between variables.
+
+# Mini Mind Map (for your notes)
+
+```
+Unsupervised Learning
+│
+├── Clustering
+│   ├── K-Means
+│   ├── Hierarchical
+│   ├── DBSCAN
+│   └── GMM
+│
+├── Dimensionality Reduction
+│   ├── PCA
+│   ├── t-SNE
+│   └── Autoencoders
+│
+└── Association Rule Learning
+    ├── Apriori
+    └── FP-Growth
+```
+
+---
