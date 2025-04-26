@@ -215,6 +215,20 @@ Use the few known examples (labeled) to guide learning from the many unknown exa
 - **GPT models**: Predict the next word given previous words (self-supervised pretraining).
 - **SimCLR (Computer Vision)**: Learn image features by comparing augmented images.
 - **DINO (Vision Transformers)**: Learn meaningful image representations without labels.
+  
+---
 
-#### **Summary in one line:**
-> **"Self-Supervised Learning is when machines become their own teachers — creating questions and learning answers from raw data itself!"** 
+### **Comparison of All Major Machine Learning Types**
+
+| Feature | Supervised Learning | Unsupervised Learning | Semi-Supervised Learning | Self-Supervised Learning | Reinforcement Learning |
+|:---|:---|:---|:---|:---|:---|
+| **Definition** | Learn from labeled data (input-output pairs) | Learn from unlabeled data (only input) | Learn from small labeled + large unlabeled data | Learn by creating labels from raw data itself | Learn by interacting with environment and receiving rewards |
+| **Data Requirement** | Fully labeled | Fully unlabeled | Partially labeled | Fully unlabeled (generates labels itself) | No labels, but needs feedback (reward signals) |
+| **Goal** | Predict labels or values for new data | Discover hidden patterns or structure | Improve model using both labeled and unlabeled data | Learn useful representations/features | Learn a policy to maximize cumulative rewards |
+| **Example Algorithms** | Linear Regression, SVM, Random Forest | K-Means, PCA, Hierarchical Clustering | Self-training, Co-training, Label Propagation | BERT, SimCLR, MoCo, DINO | Q-Learning, SARSA, Deep Q-Network (DQN), PPO |
+| **Human Effort (labeling)** | High | None | Medium | None (pretext task design only) | No manual labels but needs careful environment design |
+| **Main Challenge** | Need large labeled datasets | Choosing the right structure/patterns | Handling imbalance of labeled/unlabeled data | Designing meaningful pretext tasks | Balancing exploration and exploitation |
+| **Applications** | Spam detection, Image classification, Sentiment analysis | Customer segmentation, Anomaly detection | Medical imaging, Text classification, Speech recognition | Pretraining for NLP and vision tasks (e.g., GPT, CLIP) | Game playing, Robotics, Self-driving cars |
+| **Learning Style** | Direct supervision with ground truth | Discover structure on its own | Limited supervision + structure discovery | Self-supervised pretext training | Trial and error learning |
+
+---
