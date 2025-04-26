@@ -110,29 +110,6 @@ The **student (machine)** learns from the **teacher (labeled data)**:
 # Summary:
  
 > Every algorithm has a different purpose and learning way — like every student has its own learning style."
-
-
-
-```
-Supervised Learning
-│
-├── Regression
-│   ├── Linear Regression
-│   ├── Ridge/Lasso Regression
-│   ├── Polynomial Regression
-│   ├── SVR
-│   ├── Decision Tree Regression
-│   └── Random Forest Regression
-│
-└── Classification
-    ├── Logistic Regression
-    ├── KNN
-    ├── SVM
-    ├── Decision Tree Classification
-    ├── Random Forest Classification
-    ├── Naive Bayes
-    └── Gradient Boosting (XGBoost, LightGBM, CatBoost)
-```
 ---
 
 # Supervised Learning Algorithms — **Summary Table**
@@ -173,25 +150,5 @@ Supervised Learning
 - **Dimensionality Reduction:** Compress data while keeping important information.
 - **Association Rule Learning:** Find interesting relationships between variables.
 
-# Mini Mind Map (for your notes)
-
-```
-Unsupervised Learning
-│
-├── Clustering
-│   ├── K-Means
-│   ├── Hierarchical
-│   ├── DBSCAN
-│   └── GMM
-│
-├── Dimensionality Reduction
-│   ├── PCA
-│   ├── t-SNE
-│   └── Autoencoders
-│
-└── Association Rule Learning
-    ├── Apriori
-    └── FP-Growth
-```
-
 ---
+
