@@ -1,4 +1,4 @@
-# Machine Learning -(In simplest form))
+# Machine Learning -(In simplest form)
 
 Imagine you are a little kid. Your mother shows you different fruits every day:
 
@@ -14,7 +14,7 @@ Just like humans learn from examples without being given exact rules, machines a
 
 # In a Slightly More Formal Way
 
-> **Machine Learning** is the method of making a machine smart enough to learn from data, so that it can make decisions or predictions on new data without being explicitly programmed for each scenario.
+> **Machine Learning** is the method of making a machine smart enough to learn from data, so that it can make decisions or predictions on new data without being explicitly programmed for each scenario. "Machine Learning is the art of training a machine through data, so that it becomes smart enough to handle new situations and make decisions — just like how a mother says: 'Learn, my child, understand the colors of the world'."
 
 ---
 
@@ -26,9 +26,5 @@ Just like humans learn from examples without being given exact rules, machines a
 | Watching traffic lights and knowing when to cross the road | Self-driving Cars |  
 | Understanding a friend's mood by how they talk | Sentiment Analysis |  
 | Identifying new fashion trends while shopping | Recommendation Systems |
-
----
-
-**"Machine Learning is the art of training a machine through data, so that it becomes smart enough to handle new situations and make decisions — just like how a mother says: 'Learn, my child, understand the colors of the world'."**
 
 ---
