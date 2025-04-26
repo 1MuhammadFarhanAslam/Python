@@ -479,10 +479,10 @@ Testing Data → Used to test the final model (after training)
 #### **Overfitting**
 
 - **Definition:**  
-  When a model **learns too much**, including **noise and random fluctuations** in the training data, instead of just learning the real patterns.
+  When a model **learns too much**, including **noise and random fluctuations** in the training data, instead of just learning the useful or valuable patterns.
 
 - **Result:**  
-  - Very high accuracy on training data (model becomes a "ratta master" 📖).  
+  - Very high accuracy on training data (model becomes a "ratta master").  
   - Poor performance on new, unseen data (test data).
 
 - **Example:**  
@@ -501,7 +501,7 @@ Testing Data → Used to test the final model (after training)
 #### **Underfitting**
 
 - **Definition:**  
-  When a model **is too simple** to capture the real patterns in the data.
+  When a model **is too simple** to capture the valuable or useful patterns in the data.
 
 - **Result:**  
   - Poor performance both on training and testing data.
