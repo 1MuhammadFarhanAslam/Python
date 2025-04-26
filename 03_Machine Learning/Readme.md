@@ -567,3 +567,47 @@ And when time comes for Deep Learning aaye then:
 | Advanced Boosting Models | XGBoost / LightGBM |
 
 ---
+### **What is Data Preprocessing?**
+
+> **Data Preprocessing** means **cleaning, organizing, and transforming raw data** into a usable form so that Machine Learning models can understand it and learn better.
+
+**Raw Data = Dirty, messy**  
+**Preprocessed Data = Clean, structured, useful**
+
+
+#### **Why is Data Preprocessing Important?**
+
+- Machines can't understand "real world" messy data directly.
+- Missing values, wrong labels, irrelevant features confuse models.
+- Good preprocessing = Better, faster, smarter model.
+
+#### **Main Steps of Data Preprocessing**
+
+| Step | Purpose | Example |
+|:---|:---|:---|
+| **1. Data Cleaning** | Remove/fix wrong, incomplete, inconsistent data | Fill missing house prices with average value |
+| **2. Data Integration** | Combine data from multiple sources | Merge customer info + purchase history |
+| **3. Data Transformation** | Change data into a suitable format | Convert text labels ("Yes"/"No") into numbers (1/0) |
+| **4. Data Reduction** | Remove unnecessary parts | Drop irrelevant columns (like "Customer ID") |
+| **5. Data Scaling/Normalization** | Adjust feature values into same range | Scale age 18–60 into 0–1 |
+| **6. Data Splitting** | Split into training/testing sets | 80% training, 20% testing |
+
+
+#### **Common Techniques Used**
+
+| Technique | When Used | Example |
+|:---|:---|:---|
+| Handling Missing Data | Data has gaps (nulls) | Impute with mean, median |
+| Label Encoding | Text → Numbers | "Male" → 1, "Female" → 0 |
+| One Hot Encoding | Multi-category text | "Red", "Blue", "Green" → Binary columns |
+| Standardization | Features need 0 mean, unit variance | Useful for SVM, Logistic Regression |
+| Normalization | Scale features 0–1 | Good for Neural Networks |
+| Feature Selection | Remove useless features | Drop "Address" column |
+| Outlier Detection | Remove extreme weird values | Remove income > $10 million |
+
+#### **Mini Memory Trick**
+
+1. **Clean** the data  
+2. **Transform** the data  
+3. **Scale** the data  
+4. **Split** the data
