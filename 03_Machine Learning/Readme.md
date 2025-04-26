@@ -3,7 +3,7 @@
 Imagine you are a little kid.  
 Your mother shows you different fruits every day:
 - She points to a mango and says, "Beta (son), this is a mango."
-- Points to a watermelon and says, "This is a watermelon."
+- She points to a watermelon and says, "This is a watermelon."
 - Next day, you see a new fruit yourself — and based on what you've seen before, you think:  
   *"It’s yellow and small... maybe it's a mango!"*
 
