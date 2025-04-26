@@ -563,7 +563,7 @@ And when time comes for Deep Learning aaye then:
 | Data Visualization | Matplotlib, Seaborn |
 | Model Building | Scikit-learn |
 | Model Evaluation | Scikit-learn |
-| Deep Learning Models | TensorFlow / Keras / PyTorch |
+| Deep Learning Models | TensorFlow / Keras / PyTorch / OpenCV / NLTK |
 | Advanced Boosting Models | XGBoost / LightGBM |
 
 ---
