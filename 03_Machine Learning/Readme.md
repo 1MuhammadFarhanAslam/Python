@@ -31,7 +31,7 @@ Just like humans learn from examples without being given exact rules, machines a
 
 #### **Major Types of Supervised Learning**
 
-### 1. **Regression** (Predict Continuous Numbers)
+### i. **Regression** (Predict Continuous Numbers)
 
 | Algorithm | Simple Meaning | Example |  
 |:---|:---|:---|  
@@ -44,7 +44,7 @@ Just like humans learn from examples without being given exact rules, machines a
 | **Random Forest Regression** | Collection of decision trees for better accuracy | Salary prediction |
 
 
-### 2. **Classification** (Predict Categories)
+### ii. **Classification** (Predict Categories)
 
 | Algorithm | Simple Meaning | Example |  
 |:---|:---|:---|  
@@ -85,7 +85,7 @@ It is mainly used for:
 
 ---
 
-### **Reinforcement Learning (RL)**
+### 3. **Reinforcement Learning (RL)**
 
 > **Reinforcement Learning** is when an agent (model) **learns by interacting with an environment**, making decisions, and **getting rewards or punishments** based on its actions.  
 > Over time, the agent **learns the best strategy** (policy) to maximize its total rewards.
@@ -142,7 +142,7 @@ Zabardast! Now let’s cover **Semi-Supervised Learning (SSL)** in a clean, simp
 
 ---
 
-### **Semi-Supervised Machine Learning (SSL)**
+### 4. **Semi-Supervised Machine Learning (SSL)**
 
 > **Semi-Supervised Learning** is a type of machine learning that uses **a small amount of labeled data** combined with **a large amount of unlabeled data** to train models.  
 > It **sits between Supervised and Unsupervised Learning** — using the best of both worlds!
