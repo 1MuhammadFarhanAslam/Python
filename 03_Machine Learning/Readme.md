@@ -365,7 +365,7 @@ Model Monitoring
 > **"Machine Learning is not just about training models — it's a complete pipeline from understanding data to delivering 
 
 ---
-
+# Chapter 3: Machine Learning Basic Concepts
 ### **What is an Algorithm in Machine Learning?**
 
 > An **algorithm** in Machine Learning is a **set of rules, formulas, or step-by-step methods** that a machine follows to **learn patterns from data** and **make predictions or decisions** without being explicitly told what the right answer is.
@@ -374,3 +374,154 @@ In short:
 > **"Algorithm is like a cooking recipe — machine follows steps to learn how to solve a problem from data."**
 
 ---
+
+### **Training Data, Testing Data, Evaluation Data, Features, Labels, and Model (ML Basics)**
+
+
+#### 1. **Training Data**
+
+- **What it is:**  
+  The part of the dataset **used to teach the machine** how to find patterns.
+  
+- **Goal:**  
+  Let the algorithm **learn** from examples.
+
+- **Example:**  
+  You show 1,000 houses (with area, rooms, etc.) and their prices to the model so it can **learn how price depends on features**.
+
+#### 2. **Testing Data**
+
+- **What it is:**  
+  A **separate part** of the dataset **used to check** if the model has actually learned well or is just memorizing.
+
+- **Goal:**  
+  **Evaluate** how well the trained model performs on **new, unseen data**.
+
+- **Example:**  
+  After training, you give the model 200 new house examples it has **never seen before** and check how accurately it predicts their prices.
+
+#### 3. **Evaluation Data (Validation Data)**
+
+- **What it is:**  
+  Sometimes during training, we also keep a **small part of data aside** to **tune model settings** without touching the test data.
+
+- **Goal:**  
+  Help in **hyperparameter tuning** (model optimization) **without leaking** test data info.
+
+- **Example:**  
+  You use 15% of your training data to validate while tuning model parameters (like learning rate, depth of tree, etc.).
+
+#### 4. **Features**
+
+- **What it is:**  
+  **Inputs** to the model — the factors based on which predictions are made.
+
+- **Goal:**  
+  Provide the machine with meaningful information.
+
+- **Example:**  
+  In house price prediction:
+  - Area of the house (in square feet)
+  - Number of rooms
+  - Distance from city center
+
+  All these are **features**.
+
+#### 5. **Labels**
+
+- **What it is:**  
+  The **correct answer** or **output** we want the model to predict.
+
+- **Goal:**  
+  Teach the model the right answer during training.
+
+- **Example:**  
+  In house price prediction:
+  - The actual price of the house (like ₹50 lakh, ₹75 lakh) is the **label**.
+
+#### 6. **Model**
+
+- **What it is:**  
+  The **mathematical brain** (system) created by the algorithm **after learning** from the training data.
+
+- **Goal:**  
+  Take new feature inputs and **give correct outputs** (predictions).
+
+- **Example:**  
+  After training, your house price prediction model can now take any new house’s features and **predict its price** accurately.
+
+#### **Simple Visual Flow**
+
+```
+Data = Features + Labels
+    ↓
+Training Data → Used to train the model
+    ↓
+Validation Data → Used to tune the model (during training)
+    ↓
+Testing Data → Used to test the final model (after training)
+```
+
+#### **Super Short Memory Trick:**
+
+| Term | Shortcut Meaning |
+|:---|:---|
+| Training Data | "Teacher" for the model |
+| Testing Data | "Exam" for the model |
+| Evaluation Data | "Mock Test" during learning |
+| Features | "Inputs" (facts) |
+| Labels | "Answers" |
+| Model | "Brain" that learns |
+
+---
+### What is Overfitting and Underfitting?
+
+#### **Overfitting**
+
+- **Definition:**  
+  When a model **learns too much**, including **noise and random fluctuations** in the training data, instead of just learning the real patterns.
+
+- **Result:**  
+  - Very high accuracy on training data (model becomes a "ratta master" 📖).  
+  - Poor performance on new, unseen data (test data).
+
+- **Example:**  
+  A model memorizes every customer behavior perfectly in training but completely fails when a slightly different customer comes.
+
+- **Reason:**  
+  - Model is **too complex** (like too many decision tree splits, too many layers in a neural network).  
+  - Not enough training data.
+
+- **Solution:**  
+  - Use **simpler models**.  
+  - Use **regularization** (L1, L2 penalties).  
+  - Increase **training data**.  
+  - Use **cross-validation**.
+
+#### **Underfitting**
+
+- **Definition:**  
+  When a model **is too simple** to capture the real patterns in the data.
+
+- **Result:**  
+  - Poor performance both on training and testing data.
+
+- **Example:**  
+  A model that always predicts "house price = ₹50 lakh" no matter what features you give — because it didn't learn anything useful.
+
+- **Reason:**  
+  - Model is **too basic** (like fitting a straight line to a complex curve).  
+  - Not enough training time.  
+  - Wrong features selected.
+
+- **Solution:**  
+  - Use **more complex models**.  
+  - Train for a **longer time**.  
+  - **Feature engineering** (add better features).
+
+#### **One-Line Summary:**
+
+| Term | Quick Meaning |
+|:---|:---|
+| Overfitting | "Too much memorization, poor generalization." |
+| Underfitting | "Too little learning, poor performance." |
