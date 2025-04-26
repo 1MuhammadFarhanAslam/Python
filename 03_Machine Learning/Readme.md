@@ -30,7 +30,7 @@ Just like humans learn from examples without being given exact rules, machines a
 ---
 # Types of Machine Learning
 
-## 🏡 Major Types:
+## Major Types:
 
 ### 1. **Supervised Learning (Learning with a teacher)**
 - Machine learns from labeled data — both input and correct output are given.
@@ -85,3 +85,63 @@ Just like humans learn from examples without being given exact rules, machines a
 > **"Sometimes we learn with a guide (Supervised), sometimes explore alone (Unsupervised), sometimes motivated by rewards (Reinforcement), sometimes with a little help (Semi-Supervised), and sometimes by creating our own challenges (Self-Supervised) — that’s Machine Learning!"**
 
 ---
+# **Supervised Machine Learning Algorithms**
+
+The **student (machine)** learns from the **teacher (labeled data)**:  
+"Here’s the input, here’s the correct output."
+
+## Two Major Branches:
+
+
+### 1. **Regression Algorithms** (Predict Continuous Numbers)
+
+| Algorithm | Simple Meaning | Example |  
+|:---|:---|:---|  
+| **Linear Regression** | Draw a straight line through data points | Predict house prices |  
+| **Ridge Regression** | Apply penalty to avoid overfitting | Predict reliable house prices |  
+| **Lasso Regression** | Penalty + remove unnecessary features | Sparse data models |  
+| **Polynomial Regression** | Handle non-linear data relationships | Predict complex growth patterns |  
+| **Support Vector Regression (SVR)** | Fit data within a margin | Stock market prediction |  
+| **Decision Tree Regression** | Split data step-by-step into decisions | Predict house prices |  
+| **Random Forest Regression** | Collection of decision trees for better accuracy | Salary prediction |
+
+
+### 2. **Classification Algorithms** (Predict Categories)
+
+| Algorithm | Simple Meaning | Example |  
+|:---|:---|:---|  
+| **Logistic Regression** | Predict binary outcomes (yes/no) | Email spam detection |  
+| **K-Nearest Neighbors (KNN)** | Look at nearby neighbors to decide | Flower classification |  
+| **Support Vector Machines (SVM)** | Draw the best boundary between classes | Face recognition |  
+| **Decision Tree Classification** | Split data based on questions | Approving/rejecting loans |  
+| **Random Forest Classification** | Many decision trees voting together | Disease diagnosis |  
+| **Naive Bayes** | Simple probability model | SMS spam detection |  
+| **Gradient Boosting (XGBoost, LightGBM, CatBoost)** | Learn from mistakes step-by-step | Top Kaggle solutions |
+
+# 🎯 Short Desi Style Summary:
+
+> "Regression mein hum numbers ka andaza lagate hain,  
+> Classification mein hum label ya category batate hain,  
+> Aur har algorithm apna alag style rakhta hai — jaise har student ka apna tareeka hota hai seekhne ka!"
+
+
+```
+Supervised Learning
+│
+├── Regression
+│   ├── Linear Regression
+│   ├── Ridge/Lasso Regression
+│   ├── Polynomial Regression
+│   ├── SVR
+│   ├── Decision Tree Regression
+│   └── Random Forest Regression
+│
+└── Classification
+    ├── Logistic Regression
+    ├── KNN
+    ├── SVM
+    ├── Decision Tree Classification
+    ├── Random Forest Classification
+    ├── Naive Bayes
+    └── Gradient Boosting (XGBoost, LightGBM, CatBoost)
+```
