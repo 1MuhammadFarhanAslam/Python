@@ -10,13 +10,9 @@ Imagine you are a little kid. Your mother shows you different fruits every day:
 **That’s exactly what Machine Learning is!**  
 Just like humans learn from examples without being given exact rules, machines also learn patterns from examples so that they can make decisions on new situations — **without us programming every single rule**.
 
----
-
 ### In a Slightly More Formal Way
 
 > **Machine Learning** is the method of making a machine smart enough to learn from data, so that it can make decisions or predictions on new data without being explicitly programmed for each scenario. "Machine Learning is the art of training a machine through data, so that it becomes smart enough to handle new situations and make decisions — just like how a mother says: 'Learn, my child, understand the colors of the world'."
-
----
 
 ### Breaking it Down Naturally
 
@@ -41,8 +37,6 @@ Just like humans learn from examples without being given exact rules, machines a
 | Regression | Linear Regression, Decision Tree Regression | Predict house prices |  
 | Classification | Logistic Regression, KNN, SVM | Email spam detection |
 
----
-
 ### 2. **Unsupervised Learning (Learning without a teacher)**
 - Machine finds hidden patterns in data without any labels.
 
@@ -51,8 +45,6 @@ Just like humans learn from examples without being given exact rules, machines a
 |:---|:---|:---|  
 | Clustering | K-Means, Hierarchical Clustering | Customer segmentation |  
 | Dimensionality Reduction | PCA, t-SNE | Visualizing large datasets |
-
----
 
 ### 3. **Reinforcement Learning (Learning by rewards and penalties)**
 - Machine learns through feedback from its actions.
@@ -63,8 +55,6 @@ Just like humans learn from examples without being given exact rules, machines a
 | Positive Reinforcement | Q-Learning | Robot learning to walk |  
 | Negative Reinforcement | SARSA | Game agent avoiding dangers |
 
----
-
 ### 4. **Semi-Supervised Learning (Learning from partially labeled data)**
 - Some data is labeled, some is not.  
 - Machine learns using both.
@@ -72,8 +62,6 @@ Just like humans learn from examples without being given exact rules, machines a
 | Example |  
 |:---|  
 | Classifying thousands of photos where only a few are labeled (cats/dogs) |  
-
----
 
 ### 5. **Self-Supervised Learning (Creating own questions and answers from data)**
 - Machine generates its own labels to learn.
@@ -84,7 +72,6 @@ Just like humans learn from examples without being given exact rules, machines a
 
 > **"Sometimes we learn with a guide (Supervised), sometimes explore alone (Unsupervised), sometimes motivated by rewards (Reinforcement), sometimes with a little help (Semi-Supervised), and sometimes by creating our own challenges (Self-Supervised) — that’s Machine Learning!"**
 
----
 # **Supervised Machine Learning Algorithms**
 
 The **student (machine)** learns from the **teacher (labeled data)**:  
