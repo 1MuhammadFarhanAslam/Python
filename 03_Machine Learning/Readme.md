@@ -12,13 +12,13 @@ Just like humans learn from examples without being given exact rules, machines a
 
 ---
 
-# In a Slightly More Formal Way
+### In a Slightly More Formal Way
 
 > **Machine Learning** is the method of making a machine smart enough to learn from data, so that it can make decisions or predictions on new data without being explicitly programmed for each scenario. "Machine Learning is the art of training a machine through data, so that it becomes smart enough to handle new situations and make decisions — just like how a mother says: 'Learn, my child, understand the colors of the world'."
 
 ---
 
-# Breaking it Down Naturally
+### Breaking it Down Naturally
 
 | Real Life Learning | Machine Learning Equivalent |  
 |:---|:---|  
@@ -26,5 +26,62 @@ Just like humans learn from examples without being given exact rules, machines a
 | Watching traffic lights and knowing when to cross the road | Self-driving Cars |  
 | Understanding a friend's mood by how they talk | Sentiment Analysis |  
 | Identifying new fashion trends while shopping | Recommendation Systems |
+
+---
+# Types of Machine Learning
+
+## 🏡 Major Types:
+
+### 1. **Supervised Learning (Learning with a teacher)**
+- Machine learns from labeled data — both input and correct output are given.
+
+🔹 **Sub-Types**:
+| Minor Type | Sub-type | Example |  
+|:---|:---|:---|  
+| Regression | Linear Regression, Decision Tree Regression | Predict house prices |  
+| Classification | Logistic Regression, KNN, SVM | Email spam detection |
+
+---
+
+### 2. **Unsupervised Learning (Learning without a teacher)**
+- Machine finds hidden patterns in data without any labels.
+
+🔹 **Sub-Types**:
+| Minor Type | Sub-type | Example |  
+|:---|:---|:---|  
+| Clustering | K-Means, Hierarchical Clustering | Customer segmentation |  
+| Dimensionality Reduction | PCA, t-SNE | Visualizing large datasets |
+
+---
+
+### 3. **Reinforcement Learning (Learning by rewards and penalties)**
+- Machine learns through feedback from its actions.
+
+🔹 **Sub-Types**:
+| Minor Type | Sub-type | Example |  
+|:---|:---|:---|  
+| Positive Reinforcement | Q-Learning | Robot learning to walk |  
+| Negative Reinforcement | SARSA | Game agent avoiding dangers |
+
+---
+
+### 4. **Semi-Supervised Learning (Learning from partially labeled data)**
+- Some data is labeled, some is not.  
+- Machine learns using both.
+
+| Example |  
+|:---|  
+| Classifying thousands of photos where only a few are labeled (cats/dogs) |  
+
+---
+
+### 5. **Self-Supervised Learning (Creating own questions and answers from data)**
+- Machine generates its own labels to learn.
+
+| Example |  
+|:---|  
+| Predicting missing parts of an image — Facebook’s self-supervised models |  
+
+> "Sometimes we learn with a guide (Supervised), sometimes explore alone (Unsupervised), sometimes motivated by rewards (Reinforcement), sometimes with a little help (Semi-Supervised), and sometimes by creating our own challenges (Self-Supervised) — that’s Machine Learning!"
 
 ---
