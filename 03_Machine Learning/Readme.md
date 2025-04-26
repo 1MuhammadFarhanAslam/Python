@@ -362,6 +362,15 @@ Model Monitoring
 ```
 
 ### One-Liner Summary:
-> **"Machine Learning is not just about training models — it's a complete pipeline from understanding data to delivering real-world solutions!"**
+> **"Machine Learning is not just about training models — it's a complete pipeline from understanding data to delivering 
+
+---
+
+### **What is an Algorithm in Machine Learning?**
+
+> An **algorithm** in Machine Learning is a **set of rules, formulas, or step-by-step methods** that a machine follows to **learn patterns from data** and **make predictions or decisions** without being explicitly told what the right answer is.
+
+In short:  
+> **"Algorithm is like a cooking recipe — machine follows steps to learn how to solve a problem from data."**
 
 ---
