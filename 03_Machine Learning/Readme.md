@@ -82,6 +82,6 @@ Just like humans learn from examples without being given exact rules, machines a
 |:---|  
 | Predicting missing parts of an image — Facebook’s self-supervised models |  
 
-> "Sometimes we learn with a guide (Supervised), sometimes explore alone (Unsupervised), sometimes motivated by rewards (Reinforcement), sometimes with a little help (Semi-Supervised), and sometimes by creating our own challenges (Self-Supervised) — that’s Machine Learning!"
+> **"Sometimes we learn with a guide (Supervised), sometimes explore alone (Unsupervised), sometimes motivated by rewards (Reinforcement), sometimes with a little help (Semi-Supervised), and sometimes by creating our own challenges (Self-Supervised) — that’s Machine Learning!"**
 
 ---
