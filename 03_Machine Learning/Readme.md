@@ -72,6 +72,8 @@ Just like humans learn from examples without being given exact rules, machines a
 
 > **"Sometimes we learn with a guide (Supervised), sometimes explore alone (Unsupervised), sometimes motivated by rewards (Reinforcement), sometimes with a little help (Semi-Supervised), and sometimes by creating our own challenges (Self-Supervised) — that’s Machine Learning!"**
 
+---
+
 # **Supervised Machine Learning Algorithms**
 
 The **student (machine)** learns from the **teacher (labeled data)**:  
@@ -131,3 +133,4 @@ Supervised Learning
     ├── Naive Bayes
     └── Gradient Boosting (XGBoost, LightGBM, CatBoost)
 ```
+---
