@@ -118,7 +118,7 @@ The **student (machine)** learns from the **teacher (labeled data)**:
 | **Naive Bayes** | Simple probability model | SMS spam detection |  
 | **Gradient Boosting (XGBoost, LightGBM, CatBoost)** | Learn from mistakes step-by-step | Top Kaggle solutions |
 
-# 🎯 Short Desi Style Summary:
+# Summary:
 
 > "Regression mein hum numbers ka andaza lagate hain,  
 > Classification mein hum label ya category batate hain,  
