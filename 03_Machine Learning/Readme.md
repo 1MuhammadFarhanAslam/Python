@@ -36,7 +36,7 @@ Just like humans learn from examples without being given exact rules, machines a
 - Machine learns from labeled data — both input and correct output are given.
 
 🔹 **Sub-Types**:
-| Minor Type | Sub-type | Example |  
+| Sub-type | Algorithms | Example |  
 |:---|:---|:---|  
 | Regression | Linear Regression, Decision Tree Regression | Predict house prices |  
 | Classification | Logistic Regression, KNN, SVM | Email spam detection |
@@ -47,7 +47,7 @@ Just like humans learn from examples without being given exact rules, machines a
 - Machine finds hidden patterns in data without any labels.
 
 🔹 **Sub-Types**:
-| Minor Type | Sub-type | Example |  
+| Sub-type | Algorithms | Example |  
 |:---|:---|:---|  
 | Clustering | K-Means, Hierarchical Clustering | Customer segmentation |  
 | Dimensionality Reduction | PCA, t-SNE | Visualizing large datasets |
@@ -58,7 +58,7 @@ Just like humans learn from examples without being given exact rules, machines a
 - Machine learns through feedback from its actions.
 
 🔹 **Sub-Types**:
-| Minor Type | Sub-type | Example |  
+| Sub-type | Algorithms | Example |  
 |:---|:---|:---|  
 | Positive Reinforcement | Q-Learning | Robot learning to walk |  
 | Negative Reinforcement | SARSA | Game agent avoiding dangers |
