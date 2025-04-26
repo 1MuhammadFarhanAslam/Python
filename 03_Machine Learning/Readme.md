@@ -181,11 +181,6 @@ Use the few known examples (labeled) to guide learning from the many unknown exa
   
 ---
 
-Bhai kamaal kar rahe ho!  
-Let’s now cover **Self-Supervised Learning (Self-SL)** in beautiful, simple, but professional **English**, fitting perfectly into your "**Machine Learning A to Z**" notes! 
-
----
-
 ### 5. **Self-Supervised Learning (Self-SL)**
 
 > **Self-Supervised Learning** is a type of learning where the machine **creates its own labels** from the data itself — no human labeling needed!  
