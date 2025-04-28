@@ -527,46 +527,6 @@ Testing Data → Used to test the final model (after training)
 | Underfitting | "Too little learning, poor performance." |
 
 ---
-
-### **Important Python Libraries for Machine Learning**
-
-| Library | What it Does | Example Use | Desi Touch |
-|:---|:---|:---|:---|
-| **NumPy** | Numerical operations (arrays, matrices, math) | Fast calculations, matrix multiplication | "Calculator aur Excel dono ek sath!" |
-| **Pandas** | Data manipulation and analysis (tables, CSVs) | Reading files, cleaning, transforming data | "Data ko sajana, sanwarna, massage dena" |
-| **Matplotlib** | Data Visualization (Graphs, Charts) | Line plots, bar charts, scatter plots | "Data ko rangon mein dikhana"  |
-| **Seaborn** | Statistical Data Visualization (fancy graphs) | Heatmaps, pairplots, beautiful charts | "Matplotlib ka stylish bhai" |
-| **Scikit-learn (sklearn)** | ML Algorithms, Model Building, Preprocessing | Regression, Classification, Clustering | "Machine Learning ka power tool box" 🔧 |
-| **TensorFlow** | Deep Learning Framework (Google ka) | Neural networks, image recognition | "Heavy weight champion - Deep Learning"  |
-| **Keras** | High-level Deep Learning API (on top of TensorFlow) | Easy and fast model building | "Deep Learning ka shortcut wala rasta" |
-| **PyTorch** | Deep Learning Framework (Facebook ka) | Dynamic neural networks | "Flexible aur powerful deep learning ka jugad" |
-| **XGBoost** | Gradient Boosted Trees (best for competitions) | Winning Kaggle competitions | "Speed aur accuracy dono ka king"  |
-| **LightGBM** | Fast Gradient Boosting (for big data) | Handling millions of rows | "Bade data ka jaldi wala solution" |
-| **CatBoost** | Gradient Boosting for categorical data | E-commerce, banking data | "Category data ka asli dost" |
-| **OpenCV** | Computer Vision tasks | Image processing, object detection | "Machine ko aankhein dena"  |
-| **NLTK** | Natural Language Processing (NLP) | Text processing, sentiment analysis | "Machine ko zubaan sikhana"  |
-| **spaCy** | Fast NLP processing | Named entity recognition, tokenization | "Text processing ka Turbo Engine"  |
-| **Statsmodels** | Statistical modeling and tests | Hypothesis testing, regression analysis | "Data ki scientific checking"  |
-
-###  **Memory Trick:**  
-**"Understand data using Pandas, calculate through Numpy, dshow using matplotlib, train through Scikit-learn !"**
-
-And when time comes for Deep Learning aaye then:  
-**"Use TensorFlow ya PyTorch!"** 
-
-#### **Typical ML Project Workflow Example (using libraries)**
-
-| Step | Library Used |
-|:---|:---|
-| Data Loading | Pandas |
-| Data Cleaning | Pandas, NumPy |
-| Data Visualization | Matplotlib, Seaborn |
-| Model Building | Scikit-learn |
-| Model Evaluation | Scikit-learn |
-| Deep Learning Models | TensorFlow / Keras / PyTorch / OpenCV / NLTK |
-| Advanced Boosting Models | XGBoost / LightGBM |
-
----
 ### **What is Data Preprocessing?**
 
 > **Data Preprocessing** means **cleaning, organizing, and transforming raw data** into a usable form so that Machine Learning models can understand it and learn better.
@@ -632,9 +592,6 @@ And when time comes for Deep Learning aaye then:
 | **Data Normalization** | Making data conform to a standard or format | Help models work better on numerical features | Scaling between 0 and 1, L2 normalization |
 | **Data Partitioning** | Splitting data into multiple sets (train/test/validation) | Proper model evaluation and generalization | Train/Test Split, K-Fold Cross-Validation |
 | **Data Imputation** | Filling missing or null values | Avoid data loss or errors in model training | Mean/Median/Mode Imputation, KNN Imputation, Regression Imputation |
-
----
-Absolutely, bhai! Let's dive into the **steps of Data Preprocessing** in **British English**, but we'll keep the examples as **Desi** and relatable as possible. Ready for a smooth ride through the world of data? 🚀
 
 ---
 
